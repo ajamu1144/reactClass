@@ -4,7 +4,7 @@ const Itemprerview = ({itemImage, productPrice, productDescription, productName}
     return (
         <div className='itemDiv'>
             <div className = 'ProductImage'>
-                <img src={itemImage} />
+                <img src={itemImage} className='prodImage'/>
             </div>
             <h3>{productName}</h3>
             <div>
